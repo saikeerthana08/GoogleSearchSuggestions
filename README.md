@@ -1,4 +1,4 @@
-In this project, let's build a **Google Search Suggestions** app by applying the concepts we have learned till now.
+In this project, I build a **Google Search Suggestions** app.
 
 ### Refer to the image below:
 
@@ -18,26 +18,17 @@ In this project, let's build a **Google Search Suggestions** app by applying the
 
 </details>
 
-### Set Up Instructions
-
-<details>
-<summary>Click to view</summary>
-
-- Download dependencies by running `npm install`
-- Start up the app using `npm start`
-</details>
-
 ### Completion Instructions
 
 <details>
-<summary>Functionality to be added</summary>
+<summary>Functionalities added</summary>
 <br/>
 
-The app must have the following functionalities
+The app has the following functionalities
 
-- Initially, all suggestions in the `suggestionsList` should be displayed
-- When a value is provided in the search input, then display the suggestions which includes the search input irrespective of case
-- When the arrow of a suggestion is clicked, then the value of the search input should be updated with the respective suggestion clicked
+- Initially, all suggestions in the `suggestionsList` is displayed
+- When a value is provided in the search input, then display the suggestions which include the search input irrespective of the case
+- When the arrow of a suggestion is clicked, then the value of the search input is updated with the respective suggestion clicked
 - The `GoogleSuggestions` component receives the `suggestionsList` as a prop. It consists of a list of suggestion objects with the following properties in each suggestion object
 
   |    Key     | Data Type |
@@ -59,47 +50,15 @@ The app must have the following functionalities
 </details>
 
 <details>
-<summary>Implementation Files</summary>
+<summary>Implemented Files</summary>
 <br/>
 
-Use these files to complete the implementation:
+Used these files to complete the implementation:
 
 - `src/components/GoogleSuggestions/index.js`
 - `src/components/GoogleSuggestions/index.css`
 - `src/components/SuggestionItem/index.js`
 - `src/components/SuggestionItem/index.css`
-</details>
-
-### Quick Tips
-
-<details>
-<summary>Click to view</summary>
-<br>
-
-- You can use the `box-shadow` CSS property to apply the box-shadow effect to containers
-
-  ```
-    box-shadow: 0px 4px 16px 0px #bfbfbf;
-  ```
-
-  <br/>
-   <img src="https://assets.ccbp.in/frontend/content/react-js/box-shadow-img.png" alt="box shadow" style="width:200px" />
-
-- You can use the `cursor` CSS property to specify the mouse cursor to be displayed when pointing over an element
-
-  ```
-    cursor: pointer;
-  ```
-
-  <br/>
-   <img src="https://assets.ccbp.in/frontend/content/react-js/cursor-pointer-img.png" alt="cursor pointer" style="width:100px" />
-
-- You can use the below `outline` CSS property for buttons and input elements to remove the highlighting when the elements are clicked
-
-  ```
-    outline: none;
-  ```
-
 </details>
 
 ### Resources
@@ -130,10 +89,3 @@ Use these files to complete the implementation:
 - Roboto
 
 </details>
-
-> ### _Things to Keep in Mind_
->
-> - All components you implement should go in the `src/components` directory.
-> - Don't change the component folder names as those are the files being imported into the tests.
-> - **Do not remove the pre-filled code**
-> - Want to quickly review some of the concepts you’ve been learning? Take a look at the Cheat Sheets.
